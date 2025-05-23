@@ -12,8 +12,8 @@ function faktoryelHesapla(n) {
     return faktoryel;
 }
 
-document.getElementById("calculate-btn").addEventListener("click", function() {
-    const girdi = document.getElementById("number-input").value;
+document.getElementById("calculateButton").addEventListener("click", function() {
+    const girdi = document.getElementById("numberInput").value;
     const sayi = parseInt(girdi);
     const sonuc = faktoryelHesapla(sayi);
     document.getElementById("result").innerText = `${sayi} sayısının faktöriyeli: ${sonuc}`;
