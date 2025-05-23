@@ -1,3 +1,4 @@
+/* Sayfa gövdesi stilleri */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -5,6 +6,7 @@ body {
     padding: 20px;
 }
 
+/* Ana kapsayıcı stilleri */
 .container {
     max-width: 600px;
     margin: auto;
@@ -14,11 +16,13 @@ body {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Başlık stilleri */
 h1 {
     text-align: center;
     color: #333;
 }
 
+/* Sayı giriş alanı stilleri */
 input[type="number"] {
     width: 100%;
     padding: 10px;
@@ -27,6 +31,7 @@ input[type="number"] {
     border-radius: 4px;
 }
 
+/* Düğme stilleri */
 button {
     width: 100%;
     padding: 10px;
@@ -37,10 +42,12 @@ button {
     cursor: pointer;
 }
 
+/* Düğme üzerine gelindiğindeki stiller */
 button:hover {
     background-color: #218838;
 }
 
+/* Sonuç alanı stilleri */
 .result {
     margin-top: 20px;
     font-size: 1.2em;

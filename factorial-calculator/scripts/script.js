@@ -1,20 +1,20 @@
-function calculateFactorial(n) {
+function faktoryelHesapla(n) {
     if (n < 0) {
-        return "Please enter a non-negative integer.";
+        return "Lütfen pozitif bir tam sayı giriniz.";
     }
     if (n === 0 || n === 1) {
         return 1;
     }
-    let factorial = 1;
+    let faktoryel = 1;
     for (let i = 2; i <= n; i++) {
-        factorial *= i;
+        faktoryel *= i;
     }
-    return factorial;
+    return faktoryel;
 }
 
 document.getElementById("calculate-btn").addEventListener("click", function() {
-    const input = document.getElementById("number-input").value;
-    const number = parseInt(input);
-    const result = calculateFactorial(number);
-    document.getElementById("result").innerText = `Factorial of ${number} is ${result}`;
+    const girdi = document.getElementById("number-input").value;
+    const sayi = parseInt(girdi);
+    const sonuc = faktoryelHesapla(sayi);
+    document.getElementById("result").innerText = `${sayi} sayısının faktöriyeli: ${sonuc}`;
 });
