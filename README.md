@@ -1,1 +1,0 @@
-# Fakt-riyel-hesaplamas-
